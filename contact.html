@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Ubi LLC</title>
+	<meta name="description" content="Ubi LLC">
+	<meta name="keywords" content="Ubi LLC">
+	<meta name="author" content="Ubi LLC">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" 
+		integrity="" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/ubi.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+	<link rel="stylesheet" href="css/social.css"/>
+
+	<link href='images/favicon.ico' rel='icon' type='image/x-icon'/>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" 
+		integrity="" crossorigin="anonymous"></script>
+
+    <script src="js/contact.js"></script>
+
+	<script>
+		$(document).ready(function(){
+      		$('#load-header').load("components/header.html");
+      		$('#load-footer').load("components/footer.html");
+		});
+	</script>
+    
+</head>
+
+<body>
+<div class="body-wrapper">
+
+	<div id="load-header"></div>
+
+	<div class="content-wrapper">
+		<div class="main-content">
+            <div id="contact-container">
+
+                <span class="input">
+                    <input type="text" class="input__field" id="cf-fname" />
+                    <label for="cf-fname" class="input__label">
+                        <span class="input__label-content">First Name</span>
+                    </label>
+                </span>
+              
+                <span class="input">
+                    <input type="text" class="input__field" id="cf-lname" />
+                    <label for="cf-lname" class="input__label">
+                        <span class="input__label-content">Last Name</span>
+                    </label>
+                </span>
+              
+                <span class="input">
+                    <input type="text" class="input__field" id="cf-phone" />
+                    <label for="cf-phone" class="input__label">
+                        <span class="input__label-content">Phone Number</span>
+                    </label>
+                </span>
+              
+                <span class="input">
+                    <input type="text" class="input__field" id="cf-email" />
+                    <label for="cf-email" class="input__label">
+                        <span class="input__label-content">Email Address</span>
+                    </label>
+                </span>
+
+                <span class="input subject">
+                    <input type="text" class="input__field" id="cf-subject" />
+                    <label for="cf-subject" class="input__label">
+                        <span class="input__label-content">Subject</span>
+                    </label>
+                </span>
+              
+                <span class="input message">
+                    <textarea class="input__field" id="cf-message"></textarea>
+                    <label for="cf-message" class="input__label">
+                        <span class="input__label-content">Message</span>
+                    </label>
+                </span>
+              
+                <button id="send-button" type="button">Send</button>
+              
+            </div>
+		</div>
+
+	</div>
+	
+	<div id="load-footer"></div>
+
+</div>
+</body>
+</html>

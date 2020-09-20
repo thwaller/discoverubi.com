@@ -1,0 +1,232 @@
+/* Ubi Stylesheet */
+
+:root {
+    --UbiDarkGreen: #7c9385;
+    --UbiLightGreen: #7eb18d;
+    --UbiLighterGreen: #b7d0be;
+    --UbiOffWhite: #eeeeee;
+    --UbiOffBlack: #292929;
+    --UbiHeadings: #747472;
+    --UbiLinkHover: red;
+    --UbiDeepShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --UbiLightShadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2);
+    --SiteWidth: 960px;
+    --UbiPrimaryFont: 14px/25px Arial, Helvetica, sans-serif;
+    --UbiFont: Georgia, Helvetica, sans-serif;
+} 
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--UbiOffWhite);
+    /* background-image: radial-gradient(#eeeeee, white); */
+    color: var(--UbiOffBlack);
+    font: var(--UbiPrimaryFont);
+}
+a {
+    color: var(--UbiDarkGreen);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.body-wrapper {
+    width: var(--SiteWidth);
+    background-color: var(--UbiOffWhite);
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    height: 150px;
+    background-color: var(--UbiOffWhite);
+}
+header #logo {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 200px;
+}
+header nav {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    height: 37px;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    position: relative;
+    float: left;
+    padding: 6px 5px 0px 5px;
+}
+header nav ul li a {
+    font-size: 15px;
+    line-height: 16px;
+    color: var(--UbiDarkGreen);
+    display: block;
+    padding: 30px 10px 6px 10px;
+    margin-bottom: 5px;
+    z-index: 6;
+    position: relative;
+    font-weight: bold;
+}
+header nav ul li:hover a {
+    color: var(--UbiLinkHover);
+}
+.feature {
+    margin: 20px;
+    background-color: var(--UbiOffWhite);
+    border: var(--UbiLightGreen) 1px solid;
+}
+.content-wrapper { 
+    background: var(--UbiOffWhite);
+    border-bottom: 5px solid var(--UbiOffWhite);
+}
+.main-content { 
+    padding: 0 10px;
+}
+.main-content article { 
+    overflow: hidden; 
+    margin: 10px 20px 20px 20px;
+    background: white;
+    border: var(--UbiLightGreen) 1px solid;
+    border-radius: .5rem;
+    box-shadow: var(--UbiDeepShadow);
+}
+.main-content .heading h2 { 
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bolder;
+    font-family: Georgia, Serif;
+    padding: 5px 0 5px 0;
+}
+.main-content .heading img { 
+    float: left; 
+    margin: 3px 30px 0px 20px;
+}
+.main-content .content {
+    color: var(--UbiOffBlack);
+    margin: 0 10px 0 0;
+}
+.main-content .footer .more { 
+    float: left;
+}
+.main-content .footer .more a {
+    text-decoration: none;
+    font-style: italic, bolder;
+}
+.main-content .footer .more a:hover {
+    color: var(--UbiLinkHover);
+}
+.midbar { 
+    background: var(--UbiOffWhite);
+    margin: 30px 20px 0px 20px;
+}
+.midbar .heading { 
+    color: var(--UbiHeadings);
+    background: var(--UbiLighterGreen);
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-family: var(--UbiFont);
+    margin: 0px 250px 15px 250px;
+    border-radius: 2rem;
+    box-shadow: var(--UbiLightShadow);
+}
+.midbar .content img {
+    float: left;
+    margin: 5px;
+}
+.midbar .content {
+    padding: 15px;
+    background-color: var(--UbiOffWhite);
+}
+.midbar .content h4 {
+    font-family: var(--UbiFont);
+    font-weight: bolder;
+}
+.bottombar { 
+    background: var(--UbiOffWhite);
+    margin: 30px 10px 0px 10px;
+}
+.bottombar .heading {
+    color: var(--UbiHeadings);
+    background: var(--UbiLighterGreen);
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-family: var(--UbiFont);
+    margin: 0px 150px 10px 150px;
+    border-radius: .75rem;
+    box-shadow: var(--UbiLightShadow);
+}
+.bottombar .content {
+    padding: 15px;
+    color: var(--UbiOffBlack);
+    background-color: var(--UbiOffWhite);
+    text-align: justify;
+}
+footer {
+    background: var(--UbiLighterGreen);
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: var(--UbiLightShadow);
+    margin: 0 0 10px 0;
+}
+footer .footer-wrapper{
+    color: var(--UbiHeadings);
+    text-decoration: none;
+}
+footer .heading {
+    color: var(--UbiHeadings);
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+footer .content {
+    color: white;
+    text-align: center;
+}
+footer .content img {
+    float: left;
+    margin: 5px;
+    border: white 5px solid;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+}
+footer ul li { 
+    list-style: circle;
+    margin-left: 20px;
+}
+footer ul li a { 
+    font-size: 14px;
+    color: white;
+}
+footer ul li a:hover {
+    color: var(--UbiLinkHover);
+    text-decoration: none;
+    cursor: pointer;
+}
+#copyright {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: var(--UbiOffWhite);
+    padding: 0px 0px;
+    padding-bottom: 40px;
+    color: var(--UbiOffBlack);
+}
