@@ -1,0 +1,38 @@
+## discoverubi.com htaccess
+
+RewriteEngine On
+
+# Force rewrite to https for all traffic
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Force non-www
+RewriteCond %{HTTP_HOST} ^www.discoverubi.com [NC]
+RewriteRule ^(.*)$ https://discoverubi.com/$1 [L,R=301]
+
+# Restrict htaccess file - STRONG protection
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
+
+# Disable Indexing / Directory Listing
+Options -Indexes
+
+# Deny access to filenames starting with dot(.)
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# Block `dev` folder - Comprehensive
+RedirectMatch 403 ^/dev/?$
+RedirectMatch 403 ^/dev/.*$
+RewriteRule ^dev/?$ - [F,L]
+
+# Block access to SCSS files and more
+<FilesMatch ".(htaccess|htpasswd|ini|log|scss)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
