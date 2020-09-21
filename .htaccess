@@ -1,4 +1,5 @@
 ## discoverubi.com htaccess
+## GitHub does not support htaccess
 
 RewriteEngine On
 
