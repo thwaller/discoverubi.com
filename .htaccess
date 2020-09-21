@@ -31,8 +31,8 @@ RedirectMatch 403 ^/dev/?$
 RedirectMatch 403 ^/dev/.*$
 RewriteRule ^dev/?$ - [F,L]
 
-# Block access to SCSS files and more
-<FilesMatch ".(htaccess|htpasswd|ini|log|scss)$">
+# Block access to SCSS files
+<FilesMatch "^/css/.(scss)$">
 Order Allow,Deny
 Deny from all
 </FilesMatch>
