@@ -6,7 +6,9 @@ $UbiLighterGreen: #b7d0be;
 $UbiOffWhite: #eeeeee;
 $UbiOffBlack: #292929;
 $UbiHeadings: #747472;
-$UbiLinkHover: lightcoral;
+$UbiLinkHover: #FF9900;
+$UbiSliderThumb: #FF9900;
+$UbiSliderThumbHover: #9c5e00;
 $UbiDeepShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 $UbiLightShadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2);
 $UbiPrimaryFont: 14px/25px Arial, Helvetica, sans-serif;
@@ -18,19 +20,19 @@ $UbiFont: Georgia, Helvetica, sans-serif;
     width: 18px;
 }
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px green;
+    box-shadow: inset 0 0 5px $UbiLightGreen;
     border-left: 7px solid $UbiOffWhite;
     border-right: 7px solid $UbiOffWhite;
     /*border-radius: 10px;*/
 } 
 ::-webkit-scrollbar-thumb {
-    background: #FF9900;
+    background: $UbiSliderThumb;
     border-left: 1px solid $UbiOffWhite;
     border-right: 1px solid $UbiOffWhite;
     border-radius: 10px;
   
     &:hover {
-      background: #9c5e00;
+      background: $UbiSliderThumbHover;
     }
 }
 
