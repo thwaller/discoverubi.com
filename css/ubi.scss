@@ -11,8 +11,8 @@ $UbiSliderThumb: #FF9900;
 $UbiSliderThumbHover: #9c5e00;
 $UbiDeepShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 $UbiLightShadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.2);
-$UbiPrimaryFont: 14px/25px Arial, Helvetica, sans-serif;
-$UbiFont: Georgia, Helvetica, sans-serif;
+$UbiPrimaryFont: 14px/25px 'Nunito Sans', sans-serif;
+$UbiFont: 'Nunito Sans', sans-serif;
 
 /* scrollbar customizations */
 
@@ -49,7 +49,7 @@ body {
     margin: 0;
     background-color: $UbiOffWhite;
     color: $UbiOffBlack;
-    font: $UbiPrimaryFont;
+    font-family: $UbiPrimaryFont;
 }
 
 a {
@@ -104,7 +104,7 @@ header {
                     margin-bottom: 5px;
                     z-index: 6;
                     position: relative;
-                    font-weight: bold;
+                    font-weight: 700;
                 }
 
                 &:hover a {
@@ -148,7 +148,7 @@ header {
         h2 {
             font-size: 18px;
             line-height: 25px;
-            font-weight: bolder;
+            font-weight: 700;
             font-family: $UbiFont;
             padding: 0 0 0 20px;
         }
@@ -164,7 +164,7 @@ header {
             margin: 10px 0 15px 0;
             text-decoration: none;
             font-style: italic;
-            font-weight: bolder;
+            font-weight: 700;
 
             &:hover {
                 color: $UbiLinkHover;
@@ -182,7 +182,7 @@ header {
         background: $UbiLighterGreen;
         font-size: 24px;
         text-align: center;
-        font-weight: normal;
+        font-weight: 400;
         text-transform: uppercase;
         padding: 4px 10px;
         font-family: $UbiFont;
@@ -203,7 +203,7 @@ header {
 
         h4 {
             font-family: $UbiFont;
-            font-weight: bolder;
+            font-weight: 700;
             margin: 10px 0 10px 70px;
         }
 
@@ -222,7 +222,7 @@ header {
         background: $UbiLighterGreen;
         font-size: 24px;
         text-align: center;
-        font-weight: normal;
+        font-weight: 400;
         text-transform: uppercase;
         padding: 4px 10px;
         font-family: $UbiFont;
@@ -255,7 +255,7 @@ footer {
         color: $UbiHeadings;
         padding-bottom: 5px;
         font-size: 20px;
-        font-weight: normal;
+        font-weight: 400;
         text-transform: uppercase;
         text-align: center;
     }
@@ -305,7 +305,7 @@ footer {
 }
 
 #contact-container {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.05em;
     margin: 5px 5px 20px 5px;
     display: flex;
@@ -353,7 +353,7 @@ footer {
         background: $UbiLighterGreen;
         color: black;
         font-size: 1.55em;
-        font-weight: bold;
+        font-weight: 600;
         -webkit-appearance: none;
 
         &:focus {
@@ -369,7 +369,7 @@ footer {
         width: 100%;
         height: calc(100% - 2.4em);
         color: $UbiHeadings;
-        font-weight: bold;
+        font-weight: 600;
         font-size: 70.25%;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -433,7 +433,7 @@ footer {
         background-color: $UbiLightGreen;
         color: black;
         border: 0;
-        font-weight: bold;
+        font-weight: 600;
         font-size: 70.25%;
         text-transform: uppercase;
         letter-spacing: 4px;
