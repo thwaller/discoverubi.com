@@ -1,4 +1,3 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 .social-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,6 +8,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: -10px;
+  font-display: swap;
 }
 
 .social-buttons__button {
