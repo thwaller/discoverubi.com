@@ -36,6 +36,7 @@ body {
   background-color: #eeeeee;
   color: #292929;
   font-family: 14px/25px "Nunito Sans", sans-serif;
+  font-display: swap;
 }
 
 a {

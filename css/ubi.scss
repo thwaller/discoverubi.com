@@ -36,7 +36,6 @@ $UbiFont: 'Nunito Sans', sans-serif;
     }
 }
 
-
 html {
     width: 100%;
     padding: 0;
@@ -50,6 +49,7 @@ body {
     background-color: $UbiOffWhite;
     color: $UbiOffBlack;
     font-family: $UbiPrimaryFont;
+    font-display: swap;
 }
 
 a {
