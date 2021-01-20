@@ -1,0 +1,48 @@
+## GDPR Cookie Policy
+
+*   [What are cookies?](#cookies_1)
+*   [How do we use cookies?](#cookies_2)
+*   [What types of cookies do we use?](#cookies_3)
+
+**What are cookies?**
+
+Cookies are often known as browser cookies or tracking cookies. These cookies are small encrypted text files stored in browser directories. Like other web servers, we also place these cookies on your device to collect standard internet log information and visitor behavior information.
+
+**How do we use cookies?**
+
+The main purpose of placing these cookies is to provide you better user experience on our website. These cookies are used in the following ways:
+
+*   To keep you signed in
+*   To understand user behavior on how you use our website
+*   To keep track of user visits and activities
+*   To auto-fill login details when your re-visit website
+
+**What type of cookies do we use?**
+
+There are many types of cookies, however, our website uses mainly below cookies:
+
+Necessary cookies
+
+These cookies are essential for the basic functions of the website or to provide the product, service or content requested by you. Without these cookies, we will not be able to provide you the products or services asked for.
+
+Functionality cookies
+
+These cookies enable the website to provide enhanced functionality and personalization. These cookies are set to provide better services that we have added to our pages.
+
+Advertising
+
+The website uses this type of cookies to collect information about your visits to our website. Such as:
+
+*   Which pages did you visit?
+*   What content did you view?
+*   Which links did you click?
+
+And other information about your browser, IP address, device, location. These cookies are used for advertising purposes.
+
+Analytics cookies
+
+These cookies are set through our site by our advertising partners. These cookies are used to build a profile of your interests and show you relevant advertisements based on your visits. They do not store personal data but store info of your browser and internet device. You can opt-out by not allowing these cookies which will lead to less targeted advertising.
+
+Third-party cookies
+
+We use these cookies from third-party organizations to get insights about our website. These cookies are set by websites that are not visited by you by adding third-party elements like plugins or ads on their website. Third-party cookies also track users activities and save their browsing information for targeting ads.
